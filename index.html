@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skeema</title>
+  <link rel="icon" type="image/x-icon" href="./imgs/logochicon.png" />
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/imgs/favi.png" type="image/svg+xml" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body id="top">
+  <!--
+    cursor settings
+  -->
+  <!-- <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor_outline" data-cursor-outline></div> -->
+
+  <!-- 
+    - #HEADER
+  -->
+
+ 
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <img src="./assets/imgs/logo.png" class="logo" alt="" />
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">CyberHub</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        
+      </nav>
+
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">Manage your tabs with SKEEMA</p>
+
+            <h2 class="h2 hero-title">
+              Your browser is a mess. It’s not your fault.
+            </h2>
+
+            <p class="hero-text">
+              Skeema is a new way to manage your tabs that helps declutter
+              your browser and your mind.
+            </p>
+
+            <button style="color: #ffffff; background-color: #000" class="btn" onclick="window.location.href='#about'">
+              Get Started
+            </button>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/imgs/favi.png" width="300" height="200" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation" />
+          </figure>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+          <h2 class="underline"></h2>
+          <br />
+          <br />
+          <h2 class="h2 section-title">
+            Skeema solves the three main problems that cause tab overload.
+          </h2>
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="telescope-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Reminding & Resumption</h3>
+
+                <p class="text">
+                  You're constantly switching between unfinished tasks all
+                  day, leaving tabs open so you don't lose where you left off.
+                </p>
+
+                <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Resurfacing</h3>
+
+                <p class="text">
+                  You leave articles and papers open in tabs to read because
+                  you don't have time to read them right now but if you put
+                  them away you may forget and never get back to them.
+                </p>
+
+                <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Refinding</h3>
+
+                <p class="text">
+                  You leave docs and links open to avoid sifting through
+                  emails or Slack to find them again.
+                </p>
+
+                <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/imgs/img1.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation" />
+          </figure>
+
+          <div class="about-content">
+            <h2 class="underline"></h2>
+            <br> <br>
+            <ul class="stats-list">
+              <li class="stats-card">
+                <p class="stats-text">02</p>
+              </li>
+            </ul>
+            <h2 class="h2 section-title">Declutter your browser</h2>
+
+            <p class="about-text">
+              Organize your tabs into projects and outlines
+            </p>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-content">
+            <h2 class="underline"></h2>
+            <br>
+            <br>
+            <ul class="stats-list">
+              <li class="stats-card">
+                <p class="stats-text">02</p>
+              </li>
+            </ul>
+            <h2 class="h2 section-title">Out of sight, but not out of mind</h2>
+
+            <p class="about-text">
+              Re-encounter saved articles and instantly access any item on your new tab page
+            </p>
+
+          </div>
+
+          <figure class="about-banner">
+            <img src="./assets/imgs/img252.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/imgs/imgmanage.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation" />
+          </figure>
+
+          <div class="about-content">
+            <h2 class="underline"></h2>
+            <br> <br>
+            <ul class="stats-list">
+              <li class="stats-card">
+                <p class="stats-text">03</p>
+              </li>
+            </ul>
+            <h2 class="h2 section-title">Manage all your links in one place</h2>
+
+            <p class="about-text">
+              No more digging through emails, Slack or Drives to find them again
+            </p>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+          <h2 class="h2 section-title underline">AS FEATURED IN</h2>
+
+          <ul class="features-list">
+            <li>
+              <div class="features-card">
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">INC</h3>
+
+                  <p class="text">
+                    Stressed Out by Your 87 Open Browser Tabs? New Science Offers a Fix
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">EL PAIS</h3>
+
+                  <p class="text">
+                    The growth of the network and the multiplication of the tasks we perform in it make the prevailing model insufficient
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <figure class="features-banner">
+            <img src="./assets/imgs/favi.png" width="369" height="318" loading="lazy" alt="Features Banner"
+              class="w-100 banner-animation" />
+          </figure>
+
+          <ul class="features-list">
+            <li>
+              <div class="features-card">
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">FAST COMPANY</h3>
+
+                  <p class="text">
+                    The twisted psychology of browser tabs—and why we can’t get rid of them
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">MASHABLE</h3>
+
+                  <p class="text">
+                    Stop trying to work in multiple browser tabs. It's terrible for your focus.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+          <h2 class="h2 section-title underline">Here's what people are saying</h2>
+
+          <ul class="blog-list">
+            <li>
+              <div class="blog-card">
+                <figure class="banner">
+                  <a href="#">
+                    <img
+                      src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DPD_Header-01_czUsgTN.width-1200.format-webp.webp"
+                      width="750" height="350" loading="lazy"
+                      alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover" />
+                  </a>
+                </figure>
+
+                <div class="content">
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Annie Saunders
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    I now have all my tabs that used to be open across several windows tucked into separate little
+                    spaces in Skeema. It also has a neat clipping tool that lets you screenshot something and add it to
+                    a list or project, which is a nice addition to a standard note-taking feature. I feel pretty
+                    confident I’m not using Skeema to its fullest ability, but there is no chance I will go back to what
+                    I was doing before.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure class="banner">
+                  <a href="#">
+                    <img src="https://i.blogs.es/1dc625/chrometabs/840_560.jpeg" width="750" height="350" loading="lazy"
+                      alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover" />
+                  </a>
+                </figure>
+
+                <div class="content">
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Lisa Brown
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Skeema helps me to keep track of each of my client's associated digital assets which makes it very
+                    easy to switch fluidly between client accounts. This speeds up the build process when designing
+                    their websites. And, for what it's worth, Skeema gives me the satisfaction of being able to shut
+                    down my computer at night and fully disconnect, knowing that in the morning, I will have a way to
+                    easily reopen all 60 tabs I had been working with.
+                  </p>
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure class="banner">
+                  <a href="#">
+                    <img
+                      src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/CAM_Header-01.png"
+                      width="750" height="350" loading="lazy"
+                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover" />
+                  </a>
+                </figure>
+
+                <div class="content">
+                  <h3 class="h3 title">
+                    <a href="#"> Rob Petrie </a>
+                  </h3>
+
+                  <p class="text">
+                    I use Skeema on a daily basis, actually with every laptop I use, to quickly feed research projects
+                    with new info and read info from the collected and organized info. This is very easy with archiving
+                    via groups and a perfect search function. Screenshots on websites and an overview with open tabs,
+                    which you can easily slide into your group, are also efficient tools. Top product, compliments to
+                    the makers.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure class="banner">
+                  <a href="#">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo3-QoAZkEW8j8JPA3NDCf8KC0_F9eDkJuwNWYgUaq7fyxpKrENscCeBsv1sHwBWFRqDM&usqp=CAU"
+                      width="750" height="350" loading="lazy"
+                      alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover" />
+                  </a>
+                </figure>
+
+                <div class="content">
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Chris Kissell
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    I use Skeema to keep all of my projects in order by allowing me to easily move the content from
+                    across multiple websites to a single screen. Typically, those tabs would include websites,
+                    documents, and other content. While I still have a large number of tabs open, it's far less than I
+                    had before
+                  </p>
+
+
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+<!-- 
+  aboutus -->
+
+  <div>
+    <div class="About-box">
+      <div class="content-abt">
+        <h2 class="About-head">
+          About us...
+        </h2>
+        <p class="About-para">
+          From CS researchers at Carnegie Mellon, Skeema is a human-centered way to manage your tabs that helps you declutter your mind and your browser. Based on our new research uncovering the deep causes of tab overload, Skeema changes the way you interact with the web resulting in what users call "an efficiency dream" and an "expansion card for your unstructured mind".
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <img src="./assets/imgs/logowhite.png" style="height: 20%; width: 70%;" alt="">
+          <br>
+          <p class="text">
+            Skeema is a new way to manage your tabs that helps declutter your browser and your mind...
+          </p>
+
+          <ul class="social-list">
+
+
+            <li>
+              <a href="https://join.slack.com/t/skeemausercommunity/shared_invite/zt-10mnulolu-~4C3rxUoDQ8poymMwKM7rg"
+                class="social-link">
+                <ion-icon name="logo-slack"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://mobile.twitter.com/SkeemaHQ" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Product</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Skeema Tips</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Roadmap</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Release Notes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Team</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact us</p>
+          </li>
+
+          <li>
+            <a href="mailto:support@skeema.com" class="footer-link">support@skeema.com</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">Skeema</a>. All
+        Right Reserved
+      </p>
+    </div>
+  </footer>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    document.querySelectorAll(".footer-link").forEach(function (link) {
+      link.addEventListener("click", function (e) {
+        e.preventDefault(); // Prevent the default  behavior
+
+        var emailAddress = link.getAttribute("data-email");
+
+        // Default mail subject
+        var subject = "User communication";
+
+        // Compose the Gmail URL with subject
+        var gmailURL =
+          "https://mail.google.com/mail/?view=cm&to=" +
+          encodeURIComponent(emailAddress) +
+          "&su=" +
+          encodeURIComponent(subject);
+
+        window.location.href = gmailURL;
+      });
+    });
+  </script>
+</body>
+
+</html>
